@@ -1,67 +1,82 @@
-<html>
- <body>  
-    <table border="1" "width:100%">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        body{
+            justify-items: center;
+        }
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th{
+            width: 400px;
+        }
+        a{
+            margin-left: 8px;
+        }
+    </style>
+</head>
+<body>
+    <table>
         <tr>
-          <th> First Html Site</th>
-          
-          
+            <th colspan="3" style="height: 70px;">First HTML site</th>
         </tr>
         <tr>
-          <td>links</td>
-          
+            <td style="height: 200px; padding: 4px; vertical-align: text-top;">
+                <span>Link</span> <br>
+                <a href="page-1.html">Page 1</a> <br>
+                <a href="page-2.html">Page 2</a>
+            </td>
+            <td style="width: 180px; vertical-align: text-top;">
+                <h1>Page-1</h1>
+                <span>I am at page-1</span>
+            </td>
+            <td style="vertical-align: text-top;">
+                <h5>External Links</h5>
+               <a href="www.google.com">Google</a><br>
+               <a href="www.yahoo.com">Yahoo</a><br>
+               <a href="www.microsoft.com">Microsoft</a>
+            </td>
         </tr>
         <tr>
-          <td>
-            <a href = "page-1.html">page-1</a><br>
-            <a href = "page-2.html">page-2</a><br>
-          </td>
+            <td colspan="3" style="text-align: center;">
+               <span>Copyright</span>
+            </td>
+        </tr>
+    </table>
 
-          <td align="center">
-            <h1>page-1</h1>
-            <p> I am a page-1</p>
-          </td>
-          <td>
-            <a href = "https://www.google.com-">google</a><br>
-            <a href = "https://www.yahoo.com-">yahoo</a><br>
-            <a href = "https://www.microsoft.com-">microsoft</a><br>
-          </td>
+    <hr>
+    <!-- Page-2 -->
 
+    <table>
+        <tr>
+            <th colspan="3" style="height: 70px;">First HTML site</th>
         </tr>
         <tr>
-            <td colaspan ="3" align="center"> copyright</td>
+            <td style="height: 200px; padding: 4px; vertical-align: text-top;">
+                <span>Link</span> <br>
+                <a href="page-1.html">Page 1</a> <br>
+                <a href="page-2.html">Page 2</a>
+            </td>
+            <td style="width: 180px; vertical-align: text-top;">
+                <h1>Page-2</h1>
+                <span>I am at page-2</span>
+            </td>
+            <td style="vertical-align: text-top;">
+                <h5>External Links</h5>
+               <a href="www.google.com">Google</a> <br>
+               <a href="www.yahoo.com">Yahoo</a>
+            </td>
         </tr>
-        
-
-        
-      </table>
-
-
-
-
-      <hr>
-<!--page-2-->
-<table border="1" width="100%">
-<tr>
-    <td colspan="3" align="center"<h1>first html site</h1></td>
-</tr>
-<td>
-    <h1>page-2</h1>
-    <p> I am a page-2</p>
-</td>
-<tr>
-    <td>links</td>
-    
-  </tr>
-  <tr>
-  
-    
-    <td>
-      <a href = "https://www.google.com-">google</a><br>
-      <a href = "https://www.yahoo.com-">yahoo</a><br>
-      </td>
-</table>
-
-
+        <tr>
+            <td colspan="3" style="text-align: center;">
+               <span>Copyright</span>
+            </td>
+        </tr>
+    </table>
 </body>
-
 </html>
